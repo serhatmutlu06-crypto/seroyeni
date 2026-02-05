@@ -2,7 +2,7 @@
   "build": {
     "production": {
       "ios": {
-        "distribution": "app-store"
+        "distribution": "store"
       }
     }
   }
