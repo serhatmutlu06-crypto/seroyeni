@@ -4,10 +4,8 @@
     "slug": "sero",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": false,
 
+    "newArchEnabled": false,
 
     "ios": {
       "bundleIdentifier": "com.serhat.reveal",
@@ -15,15 +13,19 @@
     },
 
     "android": {
-      "package": "com.serhat.reveal",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#000000"
-      }
+      "package": "com.serhat.reveal"
     },
 
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "cxxStandard": "c++17"
+          }
+        }
+      ]
     ],
 
     "extra": {
