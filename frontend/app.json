@@ -6,6 +6,8 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+
 
     "ios": {
       "bundleIdentifier": "com.serhat.reveal",
